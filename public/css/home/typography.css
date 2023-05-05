@@ -1,0 +1,283 @@
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-Bold.woff2') format('woff2'), url('../../fonts/Poppins-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-Light.woff2') format('woff2'), url('../../fonts/Poppins-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-Medium.woff2') format('woff2'), url('../../fonts/Poppins-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-Regular.woff2') format('woff2'), url('../../fonts/Poppins-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-Thin.woff2') format('woff2'), url('../../fonts/Poppins-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-LightItalic.woff2') format('woff2'), url('../../fonts/Poppins-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-MediumItalic.woff2') format('woff2'), url('../../fonts/Poppins-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../../fonts/Poppins-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+/*@font-face {
+	font-family: 'Cerapro';
+	src: url('../../fonts/CeraPro-Bold.woff2') format('woff2'), url('../../fonts/CeraPro-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cerapro';
+	src: url('../../fonts/CeraPro-Light.woff2') format('woff2'), url('../../fonts/CeraPro-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cerapro';
+	src: url('../../fonts/CeraPro-Medium.woff2') format('woff2'), url('../../fonts/CeraPro-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cerapro';
+	src: url('../../fonts/CeraPro-Regular.woff2') format('woff2'), url('../../fonts/CeraPro-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cerapro';
+	src: url('../../fonts/CeraPro-Thin.woff2') format('woff2'), url('../../fonts/CeraPro-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cerapro';
+	src: url('../../fonts/CeraPro-LightItalic.woff2') format('woff2'), url('../../fonts/CeraPro-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cerapro';
+	src: url('https://www.coinpayments.net/fonts/CeraPro-MediumItalic.woff2') format('woff2'), url('../../fonts/CeraPro-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Cerapro';
+	src: url('../../fonts/CeraPro-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}*/
+
+body.body {
+	font-family: Poppins, sans-serif; /*Cerapro, sans-serif;*/
+}
+
+.teal-underline {
+    text-decoration: underline 3px #52BCBE;
+    text-underline-offset: 6px;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.medium-weight {
+	font-weight: 500;
+}
+
+.black {
+	color: #000;
+}
+
+.grey-text {
+	color: rgba(255,255,255,.5);
+}
+
+.primary-blue {
+	color: #1C60DD;
+}
+
+.heading2 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 23px;
+}
+
+
+h1.hero {
+	font-size: 60px;
+	line-height: 65px;
+	font-weight: 700;
+}
+h2.hero {
+	font-size: 36px;
+	line-height: 45px;
+	letter-spacing: -0.02em;
+}
+h3.hero {
+	font-size: 24px;
+	line-height: 30px;
+}
+p.hero {
+	font-size: 16px;
+	line-height: 23px;
+}
+
+@media screen and (max-width: 1440px) {
+	.heading2 {
+		font-size: 36px;
+		line-height: 23px;
+	}
+
+	h1.hero {
+		font-size: 60px;
+		line-height: 65px;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.heading2 {
+		font-size: 36px;
+		line-height: 23px;
+	}
+
+	h1.hero {
+		font-size: 55px;
+		line-height: 65px;
+	}
+	h2.hero {
+		font-size: 36px;
+		line-height: 45px;
+	}
+	h3.hero {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	p.hero {
+		font-size: 16px;
+		line-height: 23px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.heading2 {
+		font-size: 32px;
+		line-height: 23px;
+	}
+
+	h1.hero {
+		font-size: 40px;
+		line-height: 55px;
+	}
+	h2.hero {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	h3.hero {
+		font-size: 18px;
+		line-height: 22.63px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.heading2 {
+		font-size: 32px;
+		line-height: 23px;
+	}
+
+	h1.hero {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	h2.hero {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	h3.hero {
+		font-size: 20px;
+		line-height: 25.14px;
+	}
+	p.hero {
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.heading2 {
+		font-size: 28px;
+		line-height: 23px;
+	}
+
+	h1.hero {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	h2.hero {
+		font-size: 23px;
+		line-height: 29px;
+	}
+
+	h3.hero {
+		font-size: 18px;
+		line-height: 22.63px;
+	}
+
+	p.hero {
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
+.blue {
+	color: #2A5ED5;
+}

@@ -1,0 +1,245 @@
+.partner-section {
+	padding-top: 140px;
+	padding-bottom: 150px;
+}
+
+.partner-section__heading {
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 55px;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.partner-section__flex-container {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0 7px 30px 7px;
+	flex-wrap: wrap;
+}
+
+.partner-section__count {
+	font-size: 64px;
+	line-height: 80.45px;
+	text-transform: capitalize;
+	color: #2A5ED5;
+	text-align: center;
+}
+
+.partner-section__description {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: 0 auto;
+}
+
+.partner-section__flex-child {
+	text-align: center;
+	max-width: 254px;
+	flex-basis: 30%;
+}
+
+.partner-section__flex-container-logos {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 40px;
+	align-items: center;
+	margin-bottom: -12px;
+}
+
+.partner-section__flex-logo-child {
+	margin-top: 12px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	padding: 0px 10px;
+}
+
+.partner-section__flex-logo-child > img {
+	width: 100%;
+}
+
+.partner-section__flex-container-logos > img.coindesk-logo {
+	flex-basis: 153px;
+}
+.partner-section__flex-container-logos > img.reuters-logo {
+	flex-basis: 157px;
+}
+.partner-section__flex-container-logos > a.yahoo-link {
+	flex-basis: 109px;
+}
+.partner-section__flex-container-logos > img.cointelegraph-logo {
+	flex-basis: 206px;
+}
+.partner-section__flex-container-logos > a.forbes-link {
+	flex-basis: 116px;
+}
+
+@media screen and (max-width: 1440px) {
+	.partner-section {
+		padding-top: 9%;
+		padding-bottom: 9%;
+	}
+
+	.partner-section__flex-container {
+		padding-bottom: 2vw;
+	}
+
+	.partner-section__flex-container-logos {
+		margin-top: 2.5vw;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.partner-section__flex-container-logos {
+		margin-top: 3vw;
+	}
+
+	.partner-section__heading {
+		margin-bottom: 44px;
+	}
+
+	.partner-section__description {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.partner-section__count {
+		font-size: 50px;
+		line-height: 62.85px;
+	}
+
+	.partner-section {
+		padding-bottom: 10%;
+	}
+
+	.partner-section__flex-container-logos > img.coindesk-logo {
+		flex-basis: 130.21px;
+	}
+	.partner-section__flex-container-logos > img.reuters-logo {
+		flex-basis: 133.62px;
+	}
+	.partner-section__flex-container-logos > a.yahoo-link {
+		flex-basis: 90.21px;
+		padding-top: unset;
+	}
+	.partner-section__flex-container-logos > img.cointelegraph-logo {
+		flex-basis: 175.32px;
+		padding-top: unset;
+	}
+	.partner-section__flex-container-logos > a.forbes-link {
+		flex-basis: 98.72px;
+		padding-bottom: unset;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.partner-section {
+		padding-top: 75px;
+		padding-bottom: 80px;
+	}
+
+	.partner-section__heading {
+		margin-bottom: 41px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.partner-section__flex-container {
+		flex-direction: column;
+		align-content: center;
+		padding: 0 0 15px 0;
+		margin-bottom: 20px;
+	}
+
+	.partner-section__flex-child {
+		width: 100%;
+		max-width: unset;
+		margin-bottom: 38px;
+	}
+
+	.partner-section__description {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.partner-section__flex-container-logos {
+		margin-top: -40px;
+		width: 99%;
+		max-width: 500px;
+	}
+
+	.partner-section__flex-logo-child {
+		margin-top: 36px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.partner-section {
+		padding-top: 55px;
+		padding-bottom: 60px;
+	}
+
+	.partner-section__flex-container {
+		padding-bottom: 3px;
+	}
+
+	.partner-section__heading {
+		margin-bottom: 31px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	/* .partner-section__flex-child {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		text-align: left;
+		margin-bottom: 18px;
+	} */
+
+	.partner-section__count {
+		font-size: 50px;
+		line-height: 62.85px;
+		margin-bottom: 0;
+	}
+
+	.partner-section__description {
+		font-size: 15px;
+		line-height: 24px;
+	}
+
+	.partner-section__flex-container-logos {
+		align-items: center;
+		margin-top: -30px;
+		margin-top: 22px;
+		max-width: 385px;
+	}
+
+	.partner-section__flex-logo-child {
+		margin-top: 22px;
+	}
+
+	.partner-section__flex-container-logos > img.coindesk-logo {
+		flex-basis: 97.63px;
+	}
+	.partner-section__flex-container-logos > img.reuters-logo {
+		flex-basis: 102.75px;
+	}
+	.partner-section__flex-container-logos > a.yahoo-link {
+		flex-basis: 69.37px;
+	}
+	.partner-section__flex-container-logos > img.cointelegraph-logo {
+		flex-basis: 134px;
+	}
+	.partner-section__flex-container-logos > a.forbes-link {
+		flex-basis: 75.46px;
+	}
+}

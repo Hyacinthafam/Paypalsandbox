@@ -1,0 +1,56 @@
+.contact-section {
+    margin-top: 393px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 991px) {
+    .contact-section {
+        margin-top: 279px;
+        margin-bottom: 80px;
+    }
+}
+
+.contact-section-title {
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.contact-section-subtitle {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.contact-section > p {
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.contact-section > a > div.general-button {
+    border-color: white;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-section-title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .contact-section-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .contact-section {
+        color: black;
+    }
+
+    .contact-section > a > .general-button {
+        background-color: black;
+        color: black;
+    }
+}

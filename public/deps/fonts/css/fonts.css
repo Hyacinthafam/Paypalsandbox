@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Lato';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Lato-300/Lato-300.eot');
+  src: url('../fonts/Lato-300/Lato-300-.eot#iefix') format('embedded-opentype'),
+       local('Lato Light'),
+       local('Lato-300'),
+       url('../fonts/Lato-300/Lato-300.woff2') format('woff2'),
+       url('../fonts/Lato-300/Lato-300.woff') format('woff'),
+       url('../fonts/Lato-300/Lato-300.ttf') format('truetype'),
+       url('../fonts/Lato-300/Lato-300.svg#Lato') format('svg');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Lato-regular/Lato-regular.eot');
+  src: url('../fonts/Lato-regular/Lato-regular-.eot#iefix') format('embedded-opentype'),
+       local('Lato Regular'),
+       local('Lato-regular'),
+       url('../fonts/Lato-regular/Lato-regular.woff2') format('woff2'),
+       url('../fonts/Lato-regular/Lato-regular.woff') format('woff'),
+       url('../fonts/Lato-regular/Lato-regular.ttf') format('truetype'),
+       url('../fonts/Lato-regular/Lato-regular.svg#Lato') format('svg');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Lato-700/Lato-700.eot');
+  src: url('../fonts/Lato-700/Lato-700-.eot#iefix') format('embedded-opentype'),
+       local('Lato Bold'),
+       local('Lato-700'),
+       url('../fonts/Lato-700/Lato-700.woff2') format('woff2'),
+       url('../fonts/Lato-700/Lato-700.woff') format('woff'),
+       url('../fonts/Lato-700/Lato-700.ttf') format('truetype'),
+       url('../fonts/Lato-700/Lato-700.svg#Lato') format('svg');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 900;
+  font-style: normal;
+  src: url('../fonts/Lato-900/Lato-900.eot');
+  src: url('../fonts/Lato-900/Lato-900-.eot#iefix') format('embedded-opentype'),
+       local('Lato Black'),
+       local('Lato-900'),
+       url('../fonts/Lato-900/Lato-900.woff2') format('woff2'),
+       url('../fonts/Lato-900/Lato-900.woff') format('woff'),
+       url('../fonts/Lato-900/Lato-900.ttf') format('truetype'),
+       url('../fonts/Lato-900/Lato-900.svg#Lato') format('svg');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Ubuntu-300/Ubuntu-300.eot');
+  src: url('../fonts/Ubuntu-300/Ubuntu-300-.eot#iefix') format('embedded-opentype'),
+       local('Ubuntu Light'),
+       local('Ubuntu-300'),
+       url('../fonts/Ubuntu-300/Ubuntu-300.woff2') format('woff2'),
+       url('../fonts/Ubuntu-300/Ubuntu-300.woff') format('woff'),
+       url('../fonts/Ubuntu-300/Ubuntu-300.ttf') format('truetype'),
+       url('../fonts/Ubuntu-300/Ubuntu-300.svg#Ubuntu') format('svg');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Ubuntu-regular/Ubuntu-regular.eot');
+  src: url('../fonts/Ubuntu-regular/Ubuntu-regular-.eot#iefix') format('embedded-opentype'),
+       local('Ubuntu'),
+       local('Ubuntu-regular'),
+       url('../fonts/Ubuntu-regular/Ubuntu-regular.woff2') format('woff2'),
+       url('../fonts/Ubuntu-regular/Ubuntu-regular.woff') format('woff'),
+       url('../fonts/Ubuntu-regular/Ubuntu-regular.ttf') format('truetype'),
+       url('../fonts/Ubuntu-regular/Ubuntu-regular.svg#Ubuntu') format('svg');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/Ubuntu-500/Ubuntu-500.eot');
+  src: url('../fonts/Ubuntu-500/Ubuntu-500-.eot#iefix') format('embedded-opentype'),
+       local('Ubuntu Medium'),
+       local('Ubuntu-500'),
+       url('../fonts/Ubuntu-500/Ubuntu-500.woff2') format('woff2'),
+       url('../fonts/Ubuntu-500/Ubuntu-500.woff') format('woff'),
+       url('../fonts/Ubuntu-500/Ubuntu-500.ttf') format('truetype'),
+       url('../fonts/Ubuntu-500/Ubuntu-500.svg#Ubuntu') format('svg');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Ubuntu-700/Ubuntu-700.eot');
+  src: url('../fonts/Ubuntu-700/Ubuntu-700-.eot#iefix') format('embedded-opentype'),
+       local('Ubuntu Bold'),
+       local('Ubuntu-700'),
+       url('../fonts/Ubuntu-700/Ubuntu-700.woff2') format('woff2'),
+       url('../fonts/Ubuntu-700/Ubuntu-700.woff') format('woff'),
+       url('../fonts/Ubuntu-700/Ubuntu-700.ttf') format('truetype'),
+       url('../fonts/Ubuntu-700/Ubuntu-700.svg#Ubuntu') format('svg');
+}
+

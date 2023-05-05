@@ -1,0 +1,478 @@
+@import "../home/typography.css";
+@import "../home/container.css";
+@import "../home/buttons.css";
+
+@media screen and (max-width: 1279px) {
+    .desktop {
+        display: none;
+    }
+}
+
+body.body {
+    font-family: Poppins, sans-serif; /*Cerapro, sans-serif;*/
+}
+
+.store-directory-wrapper {
+	background-color: white;
+}
+
+.store-directory-wrapper-grey {
+	background-color: #F7F8FB
+}
+
+.store-directory {
+    width: 100%;
+}
+
+.container-row > * {
+    width: 100%;
+}
+
+.container-row > * {
+    width: 100%;
+}
+
+.page-row-expanded {
+    background-color: #EFF1F6;
+    display: block;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.page-row .w-section {
+    padding-bottom: 0;
+}
+
+.store-directory-wrapper {
+    background-color: white;
+}
+
+.store-directory-wrapper-grey {
+    background-color: #F7F8FB;
+}
+
+.col {
+    width: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 1px;
+}
+
+.store-directory h1 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.store-directory h3 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.store-directory p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.store-directory {
+    width: 100%;
+}
+
+.background-trick {
+    background-color: #F7F8FB;
+}
+
+.cryptwerk-logo {
+    display: block;
+    width: 205px;
+    margin: 30px auto;
+    filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.05));
+}
+
+.add-store {
+    margin-bottom: 25px;
+}
+
+.first-row, .second-row, .third-row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third-row > .col {
+    margin-bottom: 63px;
+    margin-top: 63px;
+}
+
+.general-button {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.find-out-more {
+    font-weight: 700;
+}
+
+@media (min-width: 478px) {
+    /* -> 767px */
+    .store-directory-content {
+        width: 100%;
+    }
+
+    div.store-directory {
+        text-align: left;
+    }
+
+    .first-row-content {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 421px;
+        flex-grow: 0;
+        flex-shrink: 1;
+        width: 60%;
+        margin-top: 53px;
+    }
+
+    .first-row .col {
+        float: left;
+    }
+    .first-container-row {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    /* -> 991px */
+    .store-directory > .container-fluid,
+    .store-directory > .background-trick > .container-fluid {
+        width: 717px;
+    }
+
+    .store-directory h1 {
+        font-size: 40px;
+        line-height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .store-directory h3 {
+        margin-top: 7px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .store-directory p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .store-directory a {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .second-row > .col {
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .cryptwerk-panel h1 {
+        font-size: 50px;
+        line-height: 63px;
+    }
+
+    .cryptwerk-panel p {
+        width: 356px;
+    }
+
+    .cryptwerk-logo {
+        order: 1;
+        width: 355px;
+        height: 239px;
+        margin-top: 20px;
+    }
+
+    .store-directory-button {
+        margin-left: 0;
+    }
+
+    .third-row {
+        text-align: center;
+    }
+
+    .third-row h3 {
+        margin-bottom: 39px;
+    }
+
+    .thid-row p {
+        margin-bottom: 0;
+    }
+
+    .third-row > .col {
+        margin-bottom: 63px;
+        margin-top: 64px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* -> 1279 */
+    .store-directory > .container-fluid,
+    .store-directory > .background-trick > .container-fluid {
+        width: 856px;
+    }
+
+    .store-directory h1 {
+        font-size: 55px;
+        line-height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .store-directory h3 {
+        margin-top: 7px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .store-directory p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .store-directory a {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .cryptwerk-logo {
+        width: 372px;
+        height: 250px;
+    }
+
+    .cryptwerk-panel p {
+        width: 418px;
+    }
+
+    .cryptwerk-panel a {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .third-row > .col {
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 1280px) {
+    /* -> 1440 */
+    .store-directory > .container-fluid,
+    .store-directory > .background-trick > .container-fluid {
+        width: 868px;
+    }
+
+    .store-directory h1 {
+        font-size: 60px;
+        line-height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .store-directory h3 {
+        margin-top: 7px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .store-directory p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .store-directory a {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .third-row > .col {
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .store-directory {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .store-directory h1 {
+        font-size: 60px;
+        line-height: 65px;
+        margin-bottom: 10px;
+    }
+
+    .store-directory h3 {
+        margin-top: 7px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .store-directory p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .store-directory a {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .third-row > .col {
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .store-directory {
+        text-align: center;
+    }
+
+    .first-row {
+        position: relative;
+    }
+
+    .first-row-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .first-row > div:first-child::before {
+        content: '';
+        position: absolute;
+        width: 101px;
+        height: 200px;
+        bottom: -93px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 478px) {
+    .store-directory > .container-fluid,
+    .store-directory > .background-trick > .container-fluid {
+        width: 457px;
+    }
+}
+
+@media (max-width: 477px) {
+    .store-directory .first-row-content {
+        width: 317px;
+    }
+    div.store-directory {
+        text-align: center;
+    }
+
+}
+
+.blue {
+    color: #2A5ED5;
+}
+
+@media (max-width: 767px) {
+    .store-directory p {
+        max-width: 316px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 457px) {
+    .cryptwerk-logo {
+        margin-top: 50px;
+    }
+}
+
+.charlie {
+    width: 275px;
+    height: 542px;
+    flex-basis: 275px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 18px;
+    margin-bottom: -125px;
+}
+
+.charlie > img {
+    width: 275px;
+    height: 542px;
+}
+
+@media screen and (max-width: 991px) {
+    .charlie {
+        width: 228px;
+        height: 450px;
+        margin-bottom: -103px;
+    }
+
+    .charlie > img {
+        width: 228px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .first-row-content {
+        margin-bottom: 65px;
+    }
+    .charlie {
+        width: 180px;
+        height: 355px;
+        margin-top: 123px;
+        margin-bottom: -82px;
+    }
+
+    .charlie > img {
+        width: 180px;
+        height: 355px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .charlie {
+        width: 170px;
+        height: 335px;
+    }
+}
+@media screen and (min-width: 478px) and (max-width: 480px) {
+    .first-row-content {
+        width: 58%;
+    }
+}
+@media screen and (max-width: 477px) {
+    .first-row-content {
+        margin-bottom: 112px;
+    }
+    .charlie {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -46px;
+        left: calc(50% + 87px);
+        transform: translateX(-50%);
+
+        width: 101px;
+        height: 200px;
+    }
+    .charlie > img {
+        width: 101px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .first-row-content {
+        margin-bottom: 130px;
+    }
+}

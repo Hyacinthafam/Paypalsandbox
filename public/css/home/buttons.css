@@ -1,0 +1,137 @@
+.general-button {
+	display: inline-block;
+	padding: 13px 35px;
+
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+
+	border: 2px solid black;
+	color: black;
+	background-color: white;
+	border-radius: 200px;
+
+	white-space: nowrap;
+}
+
+.general-button.upper {
+	text-transform: uppercase;
+}
+
+.general-button.block {
+	display: block;
+	width: 230px;
+}
+
+.general-button.block.center {
+	margin: 0 auto;
+}
+
+.general-button:hover,
+.general-button:focus {
+	background-color: #1C60DD;
+	border-color: #1C60DD;
+	color: white;
+}
+
+.blue-button {
+	background-color: #1C60DD;
+	border-color: #1C60DD;
+	color: white;
+}
+
+.blue-button:hover,
+.blue-button:focus {
+	background-color: #1a55c4;
+	color: white;
+}
+
+.teal-button {
+	background-color: #52BCBE;
+	border-color: #52BCBE;
+	color: white;
+}
+
+.teal-button:hover,
+.teal-button:focus {
+	background-color: #47a4a6;
+	border-color: #47a4a6;
+	color: white;
+}
+
+.turquoise-button {
+	background-color: #11BFBF;
+	border-color: #11BFBF;
+	color: white;
+}
+
+.turquoise-button:hover,
+.turquoise-button:focus {
+	background-color: #0fa6a6;
+	border-color: #0fa6a6;
+	color: white;
+}
+
+.transparent-button {
+	border-color: #1C60DD;
+	background-color: transparent;
+	color: #1C60DD;
+}
+
+.outlined-button {
+	background-color: white;
+	border-color: #E5E5E5;
+	color: #1C60DD;
+}
+
+.small-button {
+	font-weight: 500;
+	border-width: 1px;
+	line-height: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+	.small-button {
+		font-size: 14px;
+		width: 90px;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.small-button {
+		font-size: 14px;
+		width: 90px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.general-button {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.general-button {
+		font-size: 13px;
+	}
+	.small-button {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.general-button {
+		font-size: 14px;
+		line-height: 23px;
+	}
+
+	.button-sm {
+		width: 180px;
+	}
+}

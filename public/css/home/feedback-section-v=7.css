@@ -1,0 +1,152 @@
+.feedback-section {
+	background-color: white;
+}
+.feedback-section > .wrapped-container {
+	position: relative;
+	font-size: 24px;
+	--swiper-navigation-color: #1C60DD;
+	--swiper-navigation-size: 64px;
+	background: url('../../images/home3/quotes.svg');
+	background-size: 240px;
+	background-repeat: no-repeat;
+	background-position: center top 100px;
+
+	padding-top: 150px;
+	padding-bottom: 30px;
+}
+
+.feedback-container {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.feedback-text {
+	font-style: italic;
+	line-height: 40px;
+	color: #4B4B4B;
+	max-width: 773px;
+	margin: 0 auto;
+}
+
+.feedback-author {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 60px;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+.feedback-section .blue-button {
+	margin: 0 auto;
+}
+
+.swiper-wrapper {
+	margin-bottom: 10px;
+}
+.swiper-button-next, .swiper-button-prev {
+	top: 14% !important;
+	outline: none;
+}
+
+.swiper-button-disabled {
+	opacity: 1 !important;
+	--swiper-navigation-color: #C0C9D7;
+}
+
+@media screen and (max-width: 1440px) {
+	.feedback-section > .wrapped-container {
+		padding-top: 120px;
+		padding-bottom: 120px;
+		background-position-y: top 80px;
+		--swiper-navigation-size: 3.8vw
+	}
+
+	.feedback-text {
+		max-width: 80%;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.feedback-section > .wrapped-container {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		background-position-y: top 60px;
+	}
+}
+
+
+@media screen and (max-width: 991px) {
+	.feedback-section > .wrapped-container {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background-position-y: top 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.feedback-section > .wrapped-container {
+		--swiper-navigation-size: 40px;
+		
+		padding-top: 60px;
+		padding-bottom: 60px;
+		background-size: 120px;
+		background-position-y: top 40px;
+	}
+
+	.feedback-text {
+		width: 70%;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.feedback-author {
+		font-size: 14px;
+		line-height: 20px;
+		width: 65%;
+		margin: 16px auto;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.feedback-section > .wrapped-container {
+		--swiper-navigation-size: 35px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-position-y: top 20px;
+	}
+
+	.feedback-section a {
+		width: 180px;
+	}
+
+	.feedback-text, .feedback-author {
+		width: 217px;
+		margin: 0 auto;
+	}
+
+	.feedback-text {
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	.feedback-author {
+		line-height: 20px;
+		margin-top: 16px;
+		margin-bottom: 21px;
+	}
+	
+	.swiper-button-next {
+		right: 0px !important;
+	}
+
+	.swiper-button-prev {
+		left: 0px !important;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.feedback-section > .wrapped-container {
+		--swiper-navigation-size: 24px
+	}
+}

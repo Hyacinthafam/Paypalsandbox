@@ -1,0 +1,206 @@
+.plugins-section {
+	background-color: white;
+}
+
+.plugins-section > .wrapped-container {
+	padding-top: 10px;
+	padding-bottom: 94px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.plugins-section__heading {
+	font-size: 36px;
+	line-height: 23px;
+	font-weight: 700;
+}
+
+.plugins-section__logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 800px;
+	margin-top: 28px; /* 60 - 32 */
+	margin-bottom: 60px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.plugins-section__logos > img {
+	margin-top: 32px;
+}
+
+.magento-logo {
+	width: 134px;
+}
+
+.shopify-logo {
+	width: 113px;
+}
+
+.woocommerce-logo {
+	width: 149px;
+}
+
+.opencart-logo {
+	width: 146px;
+}
+
+.plugins-section__subheading {
+	margin-top: 29px;
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: 400;
+}
+
+.plugins-section__link {
+	font-size: 14px;
+	line-height: 23px;
+	color: #2A5ED5;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	margin-bottom: 35px;
+	margin-top: 17px;
+	font-size: 87.5%;
+}
+
+.plugins-section__link:hover {
+	color: #75BBFF;
+	border-color: #75BBFF;
+}
+
+@media screen and (max-width: 1440px) {
+
+	.plugins-section__logos {
+		max-width: 83%;
+		margin: 1vw 0;
+	}
+
+	.plugins-section__link {
+		margin-bottom: 2.4vw;
+	}
+
+}
+
+@media screen and (max-width: 1279px) {
+	.plugins-section__logos {
+		max-width: 100%;
+		width: 780px;
+		margin: 1.4vw 0;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.plugins-section__heading {
+		font-size: 32px;
+		line-height: 23px;
+	}
+
+	.plugins-section__logos {
+		width: 728px;
+	}
+
+	.plugins-section__link {
+		margin-bottom: 4vw;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.plugins-section > .wrapped-container {
+		text-align: center;
+		padding-bottom: 80px;
+	}
+
+	.plugins-section__heading {
+		font-size: 32px;
+		line-height: 44px;
+	}
+
+	.plugins-section__subheading {
+		margin-top: 19px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.plugins-section__logos {
+		width: 538px;
+		margin-top: 18px;
+		margin-bottom: 18px;
+		flex-wrap: wrap;
+	}
+
+	.plugins-section__logos img {
+		align-self: flex-start;
+	}
+
+	.plugins-section__link {
+		margin-bottom: 25px;
+	}
+
+	.magento-logo {
+		width: 134px;
+	}
+
+	.shopify-logo {
+		width: 113px;
+	}
+
+	.woocommerce-logo {
+		width: 149px;
+	}
+
+	.opencart-logo {
+		width: 146px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.plugins-section > .wrapped-container {
+		padding-bottom: 70px;
+	}
+
+	.plugins-section__heading {
+		font-size: 23px;
+		line-height: 36px;
+	}
+
+	.plugins-section__subheading {
+		margin-top: 12px;
+		font-size: 16px;
+		line-height: 28px;
+		margin-left: 75px;
+		margin-right: 75px;
+	}
+
+	.plugins-section__logos {
+		width: 100%;
+		max-width: 324px;
+		margin-top: 8px; /* 20 - 16 */
+		margin-bottom: 14px;
+	}
+
+	.plugins-section__logos {
+		margin-top: 16px;
+	}
+
+	.magento-logo {
+		width: 86.78px;
+	}
+
+	.shopify-logo {
+		width: 80.66px;
+	}
+
+	.woocommerce-logo {
+		width: 110.26px;
+	}
+
+	.opencart-logo {
+		width: 110.26px;
+	}
+
+	.plugins-section__link {
+		margin-bottom: 15px;
+	}
+}

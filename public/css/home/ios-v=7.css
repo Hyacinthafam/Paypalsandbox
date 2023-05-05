@@ -1,0 +1,5 @@
+@supports (-webkit-touch-callout: none) {
+    .first-section__image img {
+        height: 100%;
+    }
+}

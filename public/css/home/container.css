@@ -1,0 +1,145 @@
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.wrapper-container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	z-index: 95;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+
+.content-container {
+	margin: 0 auto;
+	padding: 0 60px;
+}
+
+.content-container-grey {
+	background-color: #F7F8FB;
+}
+
+@media screen and (max-width: 1440px) {
+	.content-container {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+@media screen and (max-width: 991px) {
+	.content-container {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content-container {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+}
+
+@media screen and (max-width: 477px) {
+    .content-container {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+}
+
+.container-row {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 1440px;
+}
+
+@media screen and (min-width: 768px) {
+	.container-row {
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.container-row {
+		width: 966px;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+	.container-row {
+		width: 954px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container-row {
+		width: 734px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container-row {
+		text-align: center;
+		width: 457px;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.container-row {
+		width: 317px;
+	}
+}
+
+.container-col {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.container-col-12 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+.container-col-6 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+.container-col-4 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	/* .container-col-12 {
+		flex-basis: 100%;
+	} */
+
+	.container-col-6 {
+		flex-basis: 50%;
+	}
+
+	.container-col-4 {
+		flex-basis: 33.3333333%;
+	}
+}

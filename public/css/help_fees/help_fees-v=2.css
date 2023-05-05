@@ -1,0 +1,527 @@
+@import url("../home/container.css");
+@import url("../home/typography.css");
+@import url("../home/buttons.css");
+
+.content-container {
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.content-container-grey {
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.blue {
+    color: #2A5ED5 !important;
+}
+
+.hero-wrapper {
+    display: grid;
+    grid-template-columns: 570px 449px;
+    grid-gap: 20px;
+    grid-template-areas:
+    "t i"
+    "d i"
+    "f i";
+}
+
+@media screen and (max-width:1279px) {
+    .hero-wrapper {
+        grid-template-columns: 520px 449px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .hero-wrapper {
+        grid-template-columns: 377px 400px;
+    }
+}
+
+.hero-wrapper > h1.hero-title {
+    grid-area: t;
+    margin-bottom: 10px;
+}
+
+.hero-wrapper > p.hero-description {
+    grid-area: d;
+}
+
+.hero-wrapper > .hero-footnotes {
+    grid-area: f;
+}
+
+.hero-wrapper > .hero-image {
+    grid-area: i;
+}
+
+.hero-footnotes {
+    padding-left: 20px;
+}
+
+h1.hero-title {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+}
+.hero-image {
+    width: 305px;
+    height: 305px;
+    align-self: center;
+}
+p.hero-description {
+    font-size: 16px;
+    line-height: 23px;
+}
+div.hero-footnotes {
+    font-size: 12px;
+    line-height: 23px;
+}
+
+@media screen and (max-width:1279px) {
+    h1.hero-title {
+        font-size: 55px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    h1.hero-title {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .hero-image {
+        width: 278px;
+        height: 278px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .hero-wrapper {
+        text-align: center;
+        grid-template-areas: "t""i""d""f";
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 0;
+    }
+    .hero-footnotes {
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    h1.hero-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    h1.hero-title > span {
+        display: block;
+    }
+    .hero-image {
+        width: 278px;
+        height: 278px;
+    }
+    p.hero-description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width:477px) {
+    h1.hero-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .hero-image {
+        width: 155px;
+        height: 155px;
+    }
+    .hero-footnotes {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+.panel-container {
+    text-align: center;
+}
+
+.panel-section-title {
+    width: 100%;
+}
+
+.panel-grid {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 18px;
+}
+
+.panel-grid > * {
+    margin: 0;
+    padding: 0;
+}
+.panel-container > .container-row:first-of-type {
+    padding-top: 20px;
+}
+.panel-container > .container-row:last-of-type {
+    padding-bottom: 70px;
+}
+h2.panel-section-title-text  {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 64px;
+    margin-bottom: 54px;
+}
+.panel-image {
+    justify-self: center;
+    width: 80px;
+    height: 80px;
+    order: 0;
+    margin-bottom: 35px;
+}
+.panel-title {
+    order: 1;
+}
+.panel-description {
+    order: 2;
+    margin-bottom: 35px;
+}
+.panel-fee {
+    order: 3;
+}
+h3.panel-title, p.panel-description, h3.panel-fee{
+    font-size: 16px;
+    line-height: 23px;
+}
+h3.panel-title, h3.panel-fee {
+    font-weight: 700;
+}
+.panel-spacer {
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    h2.panel-section-title-text {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 53px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .panel-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .panel-grid > .third {
+        order: 10;
+    }
+    .panel-grid > img.third {
+        margin-top: 36px;
+    }
+    .panel-spacer.third {
+        display: block;
+        order: 10;
+    }
+    h2.panel-section-title-text  {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 41px;
+    }
+    .panel-image {
+        width: 80px;
+        height: 80px;
+    }
+    h3.panel-title,h3.panel-fee {
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .panel-description {
+        font-size: 14px;
+        line-height: 12px;
+    }
+}
+@media screen and (max-width: 477px) {
+    .panel-grid {
+        grid-template-columns: 1fr;
+    }
+    .panel-grid > * {
+        order: unset;
+    }
+    .panel-spacer {
+        display: none;
+    }
+    h2.panel-section-title-text  {
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 29px;
+        margin-bottom: 24px;
+    }
+    .panel-image {
+        width: 56px;
+        height: 56px;
+    }
+    h3.panel-title,h3.panel-fee {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    h3.panel-fee {
+        margin-bottom: 30px;
+    }
+    .panel-description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.fee-explanation-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h1.fee-explanation-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom: 45px;
+}
+p.fee-explanation-description {
+    margin-bottom: 57px;
+}
+p.fee-explanation-description,
+p.fee-explanation-footnotes {
+    font-size: 16px;
+    line-height: 23px;
+}
+@media screen and (max-width:991px) {
+    .fee-explanation-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 38px;
+    }
+}
+@media screen and (max-width:767px) {
+    .fee-explanation-description {
+        margin-bottom: 16px;
+    }
+    .fee-explanation-description,
+    .fee-explanation-footnotes {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width:767px) {
+    .fee-explanation-title {
+        font-size: 23px;
+        line-height: 29px;
+        margin-bottom: 19px;
+    }
+    .fee-explanation-description {
+         margin-bottom: 19px;
+    }
+    .fee-explanation-description,
+    .fee-explanation-footnotes {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+.fee-tables-section-wrapper {
+    width: 100%;
+}
+
+.fee-table-container {
+    margin-bottom: 80px;
+}
+
+.fee-table-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.fee-table-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.fee-table-search {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.fee-table-search > .glyphicon {
+    font-size: 23px;
+}
+
+.fee-table-search > input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom-width: 2px;
+    padding: 3px 10px;
+    line-height: 1.2;
+    margin-left: 10px;
+}
+
+.fee-table-search > input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.fee-table-grid {
+    width: 100%;
+    /*https://css-tricks.com/css-grid-in-ie-faking-an-auto-placement-grid-with-gaps/*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+.fee-table-grid-header {
+    position: sticky;
+    top: 0;
+    background-color: #F7F8FB;
+}
+
+/*only show first 16 when truncated*/
+.fee-table-wrapper.truncated .fee-table-row:nth-child(n+19) {
+    display: none;
+}
+
+.fee-table-row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #DDDDDD;
+    padding: 12px 23px;
+    align-items: center;
+}
+
+.fee-table-row-header {
+    background-color: #F7F8FB;
+}
+
+.fee-table-row:not(.fee-table-grid-header) {
+    border-top: none;
+}
+
+.fee-table-cell {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.fee-table-cell-image {
+    flex-basis: 26px;
+    margin-right: 15px;
+}
+.fee-table-cell-name {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.free-table-cell-name-coin {
+    color: #808080;
+}
+
+.fee-table-cell-currency {
+    display: flex;
+    flex-basis: 62.9299363057325%;
+    align-items: center;
+}
+.fee-table-cell-fee {
+    flex-basis: 37.0700636942675%;
+}
+
+.fee-table-cell-image {
+    height: 26px;
+    width: 26px;
+}
+
+.show-all-button {
+    display: block;
+    width: 148px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.fee-table-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .fee-table {
+        grid-template-columns: 1fr;
+    }
+    .fee-table > .header-2 {
+        display: none;
+    }
+
+    .fee-table-top {
+        flex-wrap: wrap;
+    }
+
+    .fee-table-title {
+        width: 100%;
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 37px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 477px){
+    .fee-table-title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 18px;
+    }
+}
+
+.faq-wrapper > div {
+    width: 100%;
+}
+
+details.faq {
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    padding: 24px 32px;
+}
+
+/** IE **/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .panel-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .panel-grid > * {
+        order: 0; /* ie has no unset */
+    }
+
+    .fee-explanation-description {
+        max-width: 90vw;
+    }
+
+    .header-2 {
+        display: none;
+    }
+}

@@ -17,7 +17,7 @@ const app = express();
 app.use(express.static(__dirname + '/public'));
 
 const handlebars = require('express-handlebars')
-             .create({ defaultLayout:'main' });
+             .create({ defaultLayout:'home' });
  app.engine('handlebars', handlebars.engine); 
  app.set('view engine', 'handlebars');
 
@@ -103,7 +103,7 @@ app.get("/success", (req, res) => {
       } else {
         console.log(JSON.stringify(payment));
        res.send('Successful');
-       return res.redirect('/completed');
+       //return res.redirect('/completed');
         
       }
     }
