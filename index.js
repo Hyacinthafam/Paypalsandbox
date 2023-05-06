@@ -32,7 +32,7 @@ app.get('/completed', function(req, res){
   res.render('completed');
 });
 
-app.post("/pay", (req, res) => {
+app.post("/checkout", (req, res) => {
   const create_payment_json = {
     intent: "sale",
     payer: {
@@ -47,9 +47,9 @@ app.post("/pay", (req, res) => {
         item_list: {
           items: [
             {
-              name: "Red Sox Hat",
+              name: "Chicken and Chips with Coke Zero",
               sku: "001",
-              price: "5.00",
+              price: "7.9",
               currency: "USD",
               quantity: 1,
             },
@@ -57,9 +57,9 @@ app.post("/pay", (req, res) => {
         },
         amount: {
           currency: "USD",
-          total: "5.00",
+          total: "7.9",
         },
-        description: "Hat for the best team ever",
+        description: "Full lunch meal for everyone",
       },
     ],
   };
@@ -87,7 +87,7 @@ app.get("/success", (req, res) => {
       {
         amount: {
           currency: "USD",
-          total: "5.00",
+          total: "7.9",
         },
       },
     ],
@@ -102,7 +102,7 @@ app.get("/success", (req, res) => {
         throw error;
       } else {
         console.log(JSON.stringify(payment));
-       res.send('Successful');
+       res.send('Payment of $7.9 using Paypal was successful');
        //return res.redirect('/completed');
         
       }
