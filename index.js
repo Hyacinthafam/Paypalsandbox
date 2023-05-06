@@ -110,6 +110,6 @@ app.get("/success", (req, res) => {
   );
 });
 
-app.get('/cancel', (req, res) => res.send('Cancelled'));
+app.get('/cancel', (req, res) => res.send('Payment Cancellled'));
 
 app.listen(PORT, () => console.log(`Server Started on ${PORT}`));
