@@ -102,7 +102,7 @@ app.get("/success", (req, res) => {
         throw error;
       } else {
         console.log(JSON.stringify(payment));
-       res.send('Payment of $7.9 using Paypal was successful');
+       res.send('Payment of $7.9 using Paypal was Successful');
        //return res.redirect('/completed');
         
       }
@@ -110,6 +110,6 @@ app.get("/success", (req, res) => {
   );
 });
 
-app.get('/cancel', (req, res) => res.send('Payment Cancellled'));
+app.get('/cancel', (req, res) => res.send('Cancelled'));
 
 app.listen(PORT, () => console.log(`Server Started on ${PORT}`));

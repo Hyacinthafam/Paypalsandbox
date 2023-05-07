@@ -3,9 +3,11 @@
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
     "install": "^0.13.0",
     "nodemon": "^2.0.22",
-    "paypal-rest-sdk": "^1.8.1"
+    "paypal-rest-sdk": "^1.8.1",
+    "request": "^2.88.2"
   },
   "name": "paypalsandbox-rid",
   "version": "1.0.0",
